@@ -27,6 +27,12 @@ body{
     gap: 50px;
 }
 
+@media (max-width: 500px){
+    header{
+        flex-direction: column;
+    }
+}
+
 .CorpoCalculadora{
     display: flex;
     flex-direction: column;
