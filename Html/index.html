@@ -8,40 +8,38 @@
 </head>
 <body>
     <div class="CorpoCalculadora">
-        <div class="CampoTxt">
-            Escreva...
+        <div class="res">
         </div>
 
         <table>
             <tr>
-                <td><input type="button" value="&#40;"></td>
-                <td><input type="button" value="&#41;"></td>
-                <td><input type="button" value="%"></td>
-                <td><input type="button" value="/"></td>
+                <td><button class="botao" onclick="limpar()">C</td>
+                <td><button class="botao" onclick="back()">back</td>
+                <td><button class="botao" onclick="inserir('%')">%</td>
+                <td><button class="botao" onclick="inserir('/')">/</td>
             </tr>
             <tr>
-                <td><input type="button" value="7"></td>
-                <td><input type="button" value="8"></td>
-                <td><input type="button" value="9"></td>
-                <td><input type="button" value="*"></td>
+                <td><button class="botao" onclick="inserir('7')">7</td>
+                <td><button class="botao" onclick="inserir('8')">8</td>
+                <td><button class="botao" onclick="inserir('9')">9</td>
+                <td><button class="botao" onclick="inserir('*')">*</td>
             </tr>
             <tr>
-                <td><input type="button" value="4"></td>
-                <td><input type="button" value="5"></td>
-                <td><input type="button" value="6"></td>
-                <td><input type="button" value="-"></td>
+                <td><button class="botao" onclick="inserir('4')">4</td>
+                <td><button class="botao" onclick="inserir('5')">5</td>
+                <td><button class="botao" onclick="inserir('6')">6</td>
+                <td><button class="botao" onclick="inserir('-')">-</td>
             </tr>
             <tr>
-                <td><input class="um" type="button" value="1"></td>
-                <td><input type="button" value="2"></td>
-                <td><input type="button" value="3"></td>
-                <td><input type="button" value="+"></td>
+                <td><button class="botao" onclick="inserir('1')">1</td>
+                <td><button class="botao" onclick="inserir('2')">2</td>
+                <td><button class="botao" onclick="inserir('3')">3</td>
+                <td><button class="botao" onclick="inserir('+')">+</td>
             </tr>
             <tr>
-                <td><input type="button" value="0"></td>
-                <td><input type="button" value=","></td>
-                <td><input type="button" value="C"></td>
-                <td><input type="button" value="="></td>
+                <td colspan="2"><button class="botao" onclick="inserir('0')" style="width: 120px;">0</td>
+                <td><button class="botao" onclick="inserir('.')">.</button></td>
+                <td><button class="botao"" onclick="calcular()">=</td>
             </tr>
         </table>
         
