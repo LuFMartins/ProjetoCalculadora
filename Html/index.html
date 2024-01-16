@@ -7,42 +7,55 @@
     <title>PrjCalculadora</title>
 </head>
 <body>
-    <div class="CorpoCalculadora">
-        <div class="res">
-        </div>
 
-        <table>
-            <tr>
-                <td><button class="botao" onclick="limpar()">C</td>
-                <td><button class="botao" onclick="back()">back</td>
-                <td><button class="botao" onclick="inserir('%')">%</td>
-                <td><button class="botao" onclick="inserir('/')">/</td>
-            </tr>
-            <tr>
-                <td><button class="botao" onclick="inserir('7')">7</td>
-                <td><button class="botao" onclick="inserir('8')">8</td>
-                <td><button class="botao" onclick="inserir('9')">9</td>
-                <td><button class="botao" onclick="inserir('*')">*</td>
-            </tr>
-            <tr>
-                <td><button class="botao" onclick="inserir('4')">4</td>
-                <td><button class="botao" onclick="inserir('5')">5</td>
-                <td><button class="botao" onclick="inserir('6')">6</td>
-                <td><button class="botao" onclick="inserir('-')">-</td>
-            </tr>
-            <tr>
-                <td><button class="botao" onclick="inserir('1')">1</td>
-                <td><button class="botao" onclick="inserir('2')">2</td>
-                <td><button class="botao" onclick="inserir('3')">3</td>
-                <td><button class="botao" onclick="inserir('+')">+</td>
-            </tr>
-            <tr>
-                <td colspan="2"><button class="botao" onclick="inserir('0')" style="width: 120px;">0</td>
-                <td><button class="botao" onclick="inserir('.')">.</button></td>
-                <td><button class="botao"" onclick="calcular()">=</td>
-            </tr>
-        </table>
-        
+    <header>
+        <h1>Calculadora</h1>
+        <p>Criado por Luiz Martins</p>
+    </header>
+
+    <div id="Corpo">
+
+        <div class="CorpoCalculadora">
+            <div class="res">
+            </div>
+    
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="limpar()">C</td>
+                    <td><button class="botao" onclick="back()">back</td>
+                    <td><button class="botao" onclick="inserir('%')">%</td>
+                    <td><button class="botao" onclick="inserir('/')">/</td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="inserir('7')">7</td>
+                    <td><button class="botao" onclick="inserir('8')">8</td>
+                    <td><button class="botao" onclick="inserir('9')">9</td>
+                    <td><button class="botao" onclick="inserir('*')">*</td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="inserir('4')">4</td>
+                    <td><button class="botao" onclick="inserir('5')">5</td>
+                    <td><button class="botao" onclick="inserir('6')">6</td>
+                    <td><button class="botao" onclick="inserir('-')">-</td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="inserir('1')">1</td>
+                    <td><button class="botao" onclick="inserir('2')">2</td>
+                    <td><button class="botao" onclick="inserir('3')">3</td>
+                    <td><button class="botao" onclick="inserir('+')">+</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="botao" onclick="inserir('0')" style="width: 120px;">0</td>
+                    <td><button class="botao" onclick="inserir('.')">.</button></td>
+                    <td><button class="botao"" onclick="calcular()">=</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="imagem">
+            <img src="imagem/github-link.png" alt="QRcode">
+            <p>Meu GitHub</p>
+        </div>
     </div>
 
     <script src="../JavaScript/script.js"></script>
