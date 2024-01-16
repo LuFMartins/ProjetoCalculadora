@@ -1,0 +1,28 @@
+*{
+    font: normal 15pt monospace;
+}
+
+.CorpoCalculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 30px 10px;
+    margin: auto;
+    background-color: rgb(72, 72, 105);
+    box-shadow: 6px 15px 10px 2px rgba(0, 0, 0, 0.39);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.CampoTxt{
+    height: 100px;
+    padding: 15px;
+    width: 73%;
+    background-color: rgb(228, 228, 228);
+}
+
+input{
+    width: 60px;
+    height: 60px;
+}
