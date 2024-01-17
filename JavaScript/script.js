@@ -1,6 +1,6 @@
 function inserir(num){
     var numero = document.querySelector('div.res').innerHTML;
-    document.querySelector('div.res').innerHTML = numero + num;
+    document.querySelector('div.res').innerHTML = numero + num;   
 }
 
 function back(){
@@ -21,3 +21,4 @@ function calcular(){
         document.querySelector('div.res').innerHTML = 'Insira o números... (Aperte C)';
     }
 }
+
