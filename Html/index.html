@@ -3,16 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculdora</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
 </head>
 <body>
-    <h1>Calculdora</h1>
-    <p>Criado por Luiz Martins</p>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
 
-    <div id="Calculdora">
+    <section>
+        <div id="corpo">
+            <div id="res">
+            </div>
+            <div id="botoes">
+                <table>
+                    <tr>
+                        <th><button onclick="limpar()">C</button></th>
+                        <th><button onclick="Inserir('%')">%</button></th>
+                        <th><button onclick="Inserir('/')">/</button></th>
+                        <th><button onclick="Inserir('*')">*</button></th>
+                    </tr>
+                    <tr>
+                        <th><button onclick="Inserir('7')">7</button></th>
+                        <th><button onclick="Inserir('8')">8</button></th>
+                        <th><button onclick="Inserir('9')">9</button></th>
+                        <th><button onclick="Inserir('-')">-</button></th>
+                    </tr>
+                    <tr>
+                        <th><button onclick="Inserir('4')">4</button></th>
+                        <th><button onclick="Inserir('5')">5</button></th>
+                        <th><button onclick="Inserir('6')">6</button></th>
+                        <th><button onclick="Inserir('+')">+</button></th>
+                    </tr>
+                    <tr>
+                        <th><button onclick="Inserir('1')">1</button></th>
+                        <th><button onclick="Inserir('2')">2</button></th>
+                        <th><button onclick="Inserir('3')">3</button></th>
+                        <th rowspan="2"><button onclick="result()" style="height: 120px;">=</button></th>
+                    </tr>
+                    <tr>
+                        <th><button onclick="Inserir('0')">0</button></th>
+                        <th><button onclick="Inserir('.')">.</button></th>
+                        <th><button onclick="voltar()">bs</button></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
 
-        
-
-    </div>
+    <footer>
+        &copy; Luiz Martins
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
