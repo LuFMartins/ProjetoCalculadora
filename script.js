@@ -14,7 +14,7 @@ function Inserir(valor){
     
 }
 function Operador(op){
-    return ['+', '-', '*', '/', '%'].includes(op);
+    return ['+', '-', '*', '/', '%', '.'].includes(op);
 }
 
 function result(){
